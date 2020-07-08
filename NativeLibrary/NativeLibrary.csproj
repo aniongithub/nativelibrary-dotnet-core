@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" /> -->
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <!-- TODO: Fix this warning -->
+  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
+  <Import Project="$(IlcPath)\build\Microsoft.NETCore.Native.targets" />
+</Project>
